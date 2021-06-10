@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Session & Local Storage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stackmachine.css">
+        
+    </head>
+    <body>
+        <div class="stckbdy">
+            <h1>Stack Machine</h1>
+            <p style="color:red;text-align:center;">* Note Enter 5-10 Items and Test PUSH POP </p>
+            <div class="firstclass">
+                <input type="text" placeholder="Enter your Items" id="inputs1" class="inpts"><br/>
+                <button type="button" onclick="opt1()" class="btns">PUSH</button>
+                <button type="button" class="btns1" onclick="stk.pop()">POP</button>
+                <button onclick="stk.clearm();" class="btns1">Clear</button>
+            </div>
+            
+            
+            
+                <div class="secondclass">
+                    <div class="indxr">
+                        <h2 id="indx"></h2>
+                    </div>
+                    <h2>PUSH ITEMS:<h4 id="show1">&nbsp;</h4></h2>
+                    <h2>POP ITEMS :<h4 id="show2">&nbsp;</h4></h2>
+                </div>
+            
+        </div>
+        <script type="text/javascript" src="stackmachine.js"></script>
+    </body>
+</html>
